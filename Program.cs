@@ -4,7 +4,7 @@ using System.IO;
 //
 // Very simple brute-force method of permanently wiping free space on the disk
 // by creating a file and allowing it to fill up remaining free space with
-// zeros, until the OS itself no longer allows the file to be written.
+// random bytes, until the OS itself no longer allows the file to be written.
 // When finished, simply delete the huge temporary file.
 //
 // Naturally, this has the undesirable consequence of inflicting unnecessary
