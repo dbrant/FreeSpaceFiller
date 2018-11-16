@@ -55,7 +55,7 @@ namespace FreeSpaceFiller
                         if (Environment.TickCount - millis > UpdateMillis)
                         {
                             millis = Environment.TickCount;
-                            Console.WriteLine("Wrote " + (totalBytesWritten / 1000000) + " MB");
+                            Console.WriteLine("Wrote " + (totalBytesWritten / 1048576) + " MiB");
                         }
                     }
                 }
